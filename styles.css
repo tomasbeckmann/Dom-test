@@ -1,0 +1,59 @@
+*{
+    padding: 0 ;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #3CB371;
+    height: 100vh; 
+}
+
+
+.card{
+    margin: auto;
+    height: 500px;
+    width: 350px;
+    border: 2px black solid;
+    background-color: whitesmoke;
+    border-radius: 20px;
+    align-items: center;
+    align-content: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: inline-block;
+    cursor: pointer;
+    
+}
+
+.icon1{
+    position: relative;
+   font-size: 115px;
+   left: 20px; 
+}
+
+.number{
+   text-align: center;
+   font-size: 180px; 
+}
+
+.icon2{
+   position: relative;
+   float: right;
+   font-size: 115px;
+   right: 20px;
+   rotate: 180deg;
+}
+
+.cont1{
+    height: 25%;
+}
+.cont2{
+    height: 50%;
+}
+.cont3{
+    height: 25%;
+}
+
