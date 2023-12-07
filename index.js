@@ -1,6 +1,9 @@
 const card = document.getElementById("card")
+
 const iconTop = document.querySelector(".icon1");
+
 const number = document.querySelector(".number");
+
 const iconBot = document.querySelector(".icon2");
 
 function actionCardNumber() {
@@ -22,9 +25,12 @@ function actionIcon() {
     iconBot.textContent = iconString[generateNumber];
 
     if(iconString[generateNumber] == "♥" || iconString[generateNumber] == "♦"){
+        
         iconTop.style.color = "red";
         iconBot.style.color = "red";
+        
     } else {
+        
         iconTop.style.color = "black";
         iconBot.style.color = "black";
     }
@@ -32,8 +38,10 @@ function actionIcon() {
 }
 
 card.addEventListener("click", actionCardNumber)
+
 card.addEventListener("click", actionIcon)
 
 card.addEventListener("load", actionCardNumber())
+
 card.addEventListener("load", actionIcon())
 
